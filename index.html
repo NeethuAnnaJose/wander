@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderWay</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+<body>
+   
+    <!--navbar-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">WanderWay</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex justify-content-end align-items-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Destinations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#"><button>Plan Your Trip</button></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- home -->
+ <div class="card text-bg-dark " id="home" >
+  <img src="./Media/mt-fuji-japan-MOSTBEAUTIFUL0921-413f7d67bb4f4539a336ebba14f74ed2.jpg" class="card-img" alt="..." style="    width: auto;
+    height: 550px;
+    object-fit: cover;">
+  <div class="card-img-overlay" style="background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, black 60%);display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;">
+    <h1 class="card-title">Discover Your Next Adventure</h1>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <a class="nav-link" href="#" ><button style="width: 150px;height: 50px; border: none; background-color: bisque;">Plan Your Trip</button></a>
+    
+  </div>
+</div>
+
+
+<!-- cards -->
+<div class="cardswander m-5" id="cards">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+        
+
+<div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="./Media/dest1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Swiss Alps</h5>
+    <h6 class="card-title">Switzerland</h6>
+    <h6 class="card-title"> ₹65,000/person</h6>
+    <p class="card-text">Explore mountains,villages and snow adventures</p>
+    <!-- <a href="#" class="btn btn-primary">View Details</a> -->
+     <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  View Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Swiss Alps</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h5 class="card-title">Swiss Alps</h5>
+    <h6 class="card-title">Switzerland</h6>
+    <h6 class="card-title"> ₹65,000/person</h6>
+    <p class="card-text">Explore mountains,villages and snow adventures</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+
+
+<div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="./Media/dest3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Paris</h5>
+    <h6 class="card-title">Paris, France</h6>
+    <h6 class="card-title"> ₹55,000/person</h6>
+    <p class="card-text">Discover the Effile tower, streets and city views</p>
+   <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  View Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel2">Paris</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h5 class="card-title">Paris</h5>
+    <h6 class="card-title">Paris, France</h6>
+    <h6 class="card-title"> ₹55,000/person</h6>
+    <p class="card-text">Discover the Effile tower, streets and city views</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+
+
+
+<div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="./Media/dest4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Red Fort Heritage</h5>
+    <h6 class="card-title">Delhi, India</h6>
+    <h6 class="card-title"> ₹15,000/person</h6>
+    <p class="card-text">Explore Indias most iconic architecture</p>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+  View Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Red fort</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h5 class="card-title">Red Fort Heritage</h5>
+    <h6 class="card-title">Delhi, India</h6>
+    <h6 class="card-title"> ₹15,000/person</h6>
+    <p class="card-text">Explore Indias most iconic architecture</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+
+
+<div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="./Media/dest5.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Maldives</h5>
+    <h6 class="card-title">Maldives</h6>
+    <h6 class="card-title"> ₹35,000/person</h6>
+    <p class="card-text">Relax on beaches and experience a luxuries island escape</p>
+   <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  View Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel4">Maldives</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <h5 class="card-title">Maldives</h5>
+    <h6 class="card-title">Maldives</h6>
+    <h6 class="card-title"> ₹35,000/person</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  </div>
+</div>
+
+
+<div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="./Media/dest6.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Dubai Adventure</h5>
+    <h6 class="card-title">Dubai, UAE</h6>
+    <h6 class="card-title"> ₹25,000/person</h6>
+    <p class="card-text">Explore Safari,luxury shopping</p>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  View Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel5">Dubai</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h5 class="card-title">Dubai Adventure</h5>
+    <h6 class="card-title">Dubai, UAE</h6>
+    <h6 class="card-title"> ₹25,000/person</h6>
+    <p class="card-text">Explore Safari,luxury shopping</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  </div>
+</div>
+
+
+<div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="./Media/dest2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Bali Escape</h5>
+    <h6 class="card-title">Bali, indonesia</h6>
+    <h6 class="card-title"> ₹25,000/person</h6>
+    <p class="card-text">Explore tropical benches</p>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  View Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel6">Bali</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <h5 class="card-title">Bali Escape</h5>
+    <h6 class="card-title">Bali, indonesia</h6>
+    <h6 class="card-title"> ₹25,000/person</h6>
+    <p class="card-text">Explore tropical benches</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>  
+  </div>
+  </div>
+</div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- .choose us -->
+
+<!-- <div class="card text-bg-dark " >
+  <img src="./Media/whychooseus.jpg" class="card-img" alt="..." style="    width: auto;
+    height: 550px;
+    object-fit: cover;">
+  <div class="card-img-overlay" style="background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, black 60%);display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;">
+    <h1 class="card-title">Why Choose Us?</h1>
+    <p class="card-text">We have Affordable Tour Packages</p>
+    <p class="card-text">Expert Travel Guides</p>
+    <p class="card-text">Comfortable Accommodation</p>
+
+          <a class="nav-link" href="#" ><button style="width: 150px;height: 50px; border: none; background-color: bisque;">Plan Your Trip</button></a>
+    
+  </div>
+</div> -->
+
+<div id="destination" class="destination" id="choose">
+        <div class="card text-bg-dark">
+            <img id="destinationimg" src="./Media/whychooseus.jpg" class="card-img w-100 " alt="..."
+                style=" height: 550px;">
+            <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center"
+                style="padding: 72px;background: linear-gradient(
+261deg, rgb(26 25 25 / 55%) 0%, rgb(15 15 15 / 88%) 60%)">
+                <h1 class="card-titledest">Your Next Weekend Already<br> Has a Destination
+                </h1>
+                <p class="card-text">Whether you're planning a romantic escape, a family holiday, a celebration or a
+                    corporate retreat,<br> we'd love to welcome you. Check availability, send us an enquiry, or simply
+                    give
+                    us a call, and we'll help you plan the rest.</p>
+
+                <p class=""><i class="fa-solid fa-location-dot" style="color:#a8572f;"></i>Kerala, Trissur</p>
+                <p class=""><i class="fa-solid fa-phone " style="color: #a8572f;"></i>+91 7795649122</p>
+          <a href="./reserve.html">      <button class="footerreqastay"style="width: 146px; border: none;
+    height: 40px; background:#a8572f; color:white ; font-weight:500; font-size: 12px;">Plan A visit</button></a>
+            </div>
+        </div>
+    </div>
+
+<!-- form -->
+  <div id="formsss" class="col-md-6 text-selection" style="height: 100vh; width: auto;background-color:antiquewhite; overflow-y: auto; overflow-x: hidden;scrollbar-width: none;">
+            <!-- <a href="./index.html"><button type="button" class="btn-close position-absolute position: absolute;" style="right: 50px;
+    top: 19px;" aria-label="Close"></button></a> -->
+            <div class="card-body m-5">
+                <h5 class="card-title" style="font-weight: 900; font-size: 30px; margin-bottom: 10px;">Request a Visit
+                </h5>
+                <p class="card-text">Share a few details and our team will be in touch within a day.</p>
+                <div class="formdetailsbookstay">
+                    <form class="row g-3">
+
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Your name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="you@gmail.com">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">phone</label>
+                            <input type="text" class="form-control" id="inputPassword4" placeholder="+91">
+                        </div>
+                        
+                        <!-- <label for="guests">Guests</label>
+                        <select id ="guests" class="form-select" aria-label="Default select example">
+                            <option selected>Select guests</option>
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guests</option>
+                            <option value="3">3 to 4 Guests</option>
+                            <option value="3">5 to 6 Guests</option>
+                            <option value="3">Family / Group</option>
+                            <option value="3">Corporate Retreat</option>
+
+
+                        </select> -->
+
+                        <div class="mb-3">
+                            <label for="validationTextarea" class="form-label">Message</label>
+                            <textarea class="form-control" id="validationTextarea"
+                                placeholder="Required example textarea" required></textarea>
+                            <div class="invalid-feedback">
+                                Tell us how you like to slow down.
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <button type="submit" class="btn"
+                                style="background-color: #c57a5a; color: bisque; width: 100%;">SEND ENQUIRY</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- footer -->
+    <div id="footer" class="footer" style="background-color: #4b3c3f;">
+        <div class="p-2 footer-brand">
+            <img src="./media/logo.png" alt="" style="width: 15%;">
+            <a class="navbar-brand text-light" href="#" id="avantra" style="font-size: 50px;">WanderWay</a>
+            <p id="getawaypara">Best way to escape to the nature<br> Malnad, where time slows, nature
+                speaks,<br> and the soul
+                rediscovers peace.</p>
+            <h5 style="color: #efe7d8; text-transform:uppercase  ; font-size: 12px;">A Vibez Estates Signature</h5>
+        </div>
+        <div class="footer-links">
+            <h3>Explore</h3>
+            <p><a class="link-opacity-10-hover" href="#home">Home </a></p>
+            <p><a class="link-opacity-50-hover" href="#cards">Places to visit</a></p>
+            <p><a class="link-opacity-50-hover" href="#choose">Why choose Us?</a></p>
+    
+
+        </div>
+        <div class="p-2 footer-contact">
+            <h3>Reach Us</h3>
+            <p>Kerala<br>
+
+                +91 7795649122<br>
+                www.wander.com<br>
+                <a href="#formsss" style="color: #c4b3a8; text-decoration: none;">Plan a Visit</a></p>
+        </div>
+
+        <hr>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
